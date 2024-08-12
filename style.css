@@ -1,0 +1,70 @@
+body {
+  color: white;
+  background:gray;
+  margin: 2px;
+}
+
+header {
+  font-size:60px;
+  color: whitesmoke;
+  border-bottom: solid 2px white;
+  margin : 20px;
+  padding: 20px;
+   font-family: "Work Sans", sans-serif;;
+}
+
+.entrada{
+  font-family: "Anton SC", sans-serif;
+   margin : 20px;
+  padding: 30px;
+  color:  #000000;
+  background: #dfc7ad;
+  font-size: 20px;
+  display: flex;
+}
+
+.descriçao{
+  font-size: 20px;
+}
+
+.Primeiro{
+  margin-rigth:20px;
+}
+
+img{
+  height: 200px
+}
+
+.clipes{
+  display:flex;
+  overflow-x: auto;
+  gap: 20px;
+}
+
+p{
+  text-align: justify;
+}
+
+.outros{
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 30px;
+  font-family: "Anton SC", sans-serif;
+}
+
+.outros img{
+  opacity: 0.5;
+}
+
+.outros img:hover{
+opacity: 1.0;
+  border: solid 3px white;
+  border-radius: 20px;
+}
+
+
+.logo{
+  position: relative;
+  top: -40px ;
+  left: 500px;
+}
